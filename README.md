@@ -10,7 +10,7 @@ This Privacy Policy explains how **CorgiRam** ("we", "us", or "our") handles inf
 
 ## 1. Information We Access and Collect
 
-We do not operate external developer-owned servers to store your personal information, nor do we use third-party advertising or behavioral analytics trackers. The Game only accesses and processes data required for core **App Functionality**:
+We do not operate external developer-owned servers to store your personal information, nor do we use third-party advertising or behavioral analytics trackers. The Game only accesses and processes data required for core **App Functionality** and **Fraud Prevention and Compliance:**:
 
 ### A. Google Play Games Services (Cloud Save)
 When you sign in with **Google Play Games Services**, the Game accesses:
