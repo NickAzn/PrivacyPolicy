@@ -1,6 +1,6 @@
 # Privacy Policy for Capybara Kickball
 
-**Effective Date:** November 8, 2026  
+**Effective Date:** November 10, 2026  
 **Developer:** CorgiRam  
 **Contact Email:** corgiram@gmail.com
 
@@ -9,28 +9,23 @@ This Privacy Policy explains how **CorgiRam** ("we", "us", or "our") handles inf
 ---
 
 ## 1. Information We Access and Collect
-
-We do not operate external developer-owned servers to store your personal information, nor do we use third-party advertising or behavioral analytics trackers. The Game only accesses and processes data required for core **App Functionality** and **Fraud Prevention and Compliance:**:
-
-### A. Google Play Games Services (Cloud Save)
-When you sign in with **Google Play Games Services**, the Game accesses:
-* **User Identifier:** Your Google Play Games Gamer ID and basic player profile identifier to authenticate your session.
-* **Gameplay Save Data:** Your in-game progression—including XP, unlocked cards and booster packs, match statistics, active run state, and audio/gameplay settings—is saved locally on your device and synchronized to your personal Google account (via Google Play Games Saved Games / Google Drive hidden app data) so your progress can be restored across devices.
-
+We do not operate external developer-owned servers to store your personal information, nor do we use third-party advertising or behavioral analytics trackers. The Game only accesses and processes data after you accept this Privacy Policy in-game, and strictly as required for **App Functionality** and **Fraud Prevention, Security, and Compliance**:
+### A. Google Play Games Services (Optional Cloud Save)
+Cloud Save is disabled by default. If you choose to enable Cloud Save and sign in with **Google Play Games Services**, the Game and the Google Play Games SDK access and process:
+* **User IDs:** Your Google Play Games Gamer ID and player profile identifier to authenticate your account across devices.
+* **Device or Other IDs:** Device and installation identifiers used by Google Play Services to establish a secure authenticated session and prevent unauthorized access.
+* **App Activity (App Interactions & Other Actions / Gameplay Save Data):** Your interactions with the Cloud Save service and your in-game progression—including XP, unlocked cards and booster packs, difficulty unlocks, and lifetime match/run statistics—which are saved locally on your device and synchronized to your personal Google account (via Google Play Games Saved Games / Google Drive hidden app data).
 ### B. In-App Purchases (Unity IAP & Google Play Billing)
-When you make or restore an in-app purchase inside the Game:
-* **Purchase History & Transaction Identifiers:** The Game uses **Unity In-App Purchasing (Unity IAP)** and **Google Play Billing** to process purchase tokens, order IDs, and product identifiers (SKUs) to unlock purchased content and restore previous purchases.
+When the Game checks purchase entitlements, or when you make or restore an in-app purchase:
+* **Financial Info (Purchase History):** The Game uses **Unity In-App Purchasing (Unity IAP)** and **Google Play Billing** to access purchase tokens, order IDs, product identifiers (SKUs), and cryptographic purchase receipts to unlock the full game and restore previous purchases.
+* **Device or Other IDs:** Device and installation identifiers used by the Google Play Billing client to verify device entitlement, prevent fraud, and process transactions securely.
 * **No Payment Card Access:** All financial transactions and payment instruments (such as credit cards, debit cards, or billing addresses) are processed exclusively by **Google Play**. We never access, collect, transmit, or store your payment card or banking details.
-
 ---
-
 ## 2. How We Use Information
-
 All information described above is used strictly for:
-1. **App Functionality:** Saving and synchronizing your gameplay progress across devices, delivering purchased in-app items, and restoring past purchases when you reinstall the Game or switch devices.
-2. **Fraud Prevention and Compliance:** Validating purchase receipts with Google Play Billing to verify legitimate transactions.
-
-We do **not** sell, rent, or share your personal data with third parties for advertising or marketing purposes.
+1. **App Functionality:** Authenticating your optional Google Play Games session, saving and synchronizing your gameplay progress across devices, delivering purchased in-app content, and restoring past purchases when you reinstall the Game or switch devices.
+2. **Fraud Prevention, Security, and Compliance:** Validating cryptographic purchase receipts and session tokens with Google Play Services to verify legitimate transactions and protect account integrity.
+We do **not** sell, rent, or share your personal data with third parties for advertising, profiling, or marketing purposes.
 
 ---
 
